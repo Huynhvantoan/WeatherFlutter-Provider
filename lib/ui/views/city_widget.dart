@@ -24,7 +24,7 @@ class _CityState extends State<CityPage> {
               controller: textController,
               decoration: InputDecoration(
                 labelText: 'City',
-                hintText: 'Ho chi minh',
+                hintText: 'Ha noi',
               ),
             ),
           )),

@@ -8,7 +8,7 @@ class WeatherModel extends BaseModel {
   final Api _api = locator<Api>();
   Weather weather;
 
-  Future getInfoProfile(String city) async {
+  Future getWeather(String city) async {
     setState(ViewSate.Loading);
     weather = await _api.getWeather(city);
     setState(ViewSate.Success);

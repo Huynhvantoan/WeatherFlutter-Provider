@@ -1,1 +1,1 @@
-enum ViewSate { Loading, Error, Success }
+enum ViewSate { Idle, Loading, Error, Success }

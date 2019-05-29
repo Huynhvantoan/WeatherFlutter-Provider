@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:weather/blocs/blocs.dart';
 
@@ -41,3 +42,4 @@ class TemperatureWeather extends StatelessWidget {
   int _formattedTemperature(double t) => temperatureUnits == TemperatureUnits.fahrenheit? _toFahrenheit(t): t.round();
 }
 
+*/

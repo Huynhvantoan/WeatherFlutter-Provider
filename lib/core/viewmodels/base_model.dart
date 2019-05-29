@@ -2,7 +2,7 @@ import 'package:flutter/widgets.dart';
 import 'package:weather/core/enums/view_state.dart';
 
 class BaseModel extends ChangeNotifier{
-  ViewSate _state = ViewSate.Loading;
+  ViewSate _state = ViewSate.Idle;
 
   ViewSate get state => _state;
 

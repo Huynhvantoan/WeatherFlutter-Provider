@@ -1,3 +1,4 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:weather/models/models.dart';
 
@@ -41,3 +42,4 @@ class WeatherConditions extends StatelessWidget {
     return image;
   }
 }
+*/

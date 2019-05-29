@@ -1,6 +1,6 @@
-export 'package:weather/page/weatherpage.dart';
-export 'package:weather/page/settingpage.dart';
-export 'package:weather/page/citypage.dart';
+export 'package:weather/ui/views/weatherpage.dart';
+export 'package:weather/ui/views/settingpage.dart';
+export 'package:weather/ui/views/city_widget.dart';
 export 'package:weather/ui/widgets/gradient_widget.dart';
 export 'package:weather/ui/widgets/location_widget.dart';
 export 'package:weather/ui/widgets/lastupdated_widget.dart';
