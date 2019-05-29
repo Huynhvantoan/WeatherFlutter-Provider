@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'base_view.dart';
 import 'package:weather/core/viewmodels/viewmodel.dart';
 import 'package:weather/core/enums/view_state.dart';
+import 'viewpage.dart';
 
 class WeatherPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BaseView<WeatherModel>(
-        //onModelReady: (model) => model.getWeather(''),
         builder: (build, model, child) => Scaffold(
             appBar: AppBar(
               title: Text('Weather'),
@@ -49,7 +49,7 @@ class WeatherPage extends StatelessWidget {
                                     fontSize: 20),
                               ),
                             )
-                          : Text('Success: ${model.weather.weather[0].icon}'),
+                          : WeatherWidget(model.weather),
             )));
   }
 }
