@@ -4,8 +4,7 @@ class GradientContainer extends StatelessWidget {
   final Widget child;
   final MaterialColor color;
 
-  const GradientContainer(
-      {Key key, @required this.child, @required this.color})
+  const GradientContainer({Key key, @required this.child, @required this.color})
       : assert(child != null && color != null),
         super(key: key);
 

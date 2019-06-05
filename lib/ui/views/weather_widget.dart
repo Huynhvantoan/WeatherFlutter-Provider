@@ -9,12 +9,9 @@ class WeatherWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
-          Text('Success: ${weather.weather[0].icon}')
-        ],
-      )
-    );
+        body: Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: <Widget>[Text('Success: ${weather.weather[0].icon}')],
+    ));
   }
 }
